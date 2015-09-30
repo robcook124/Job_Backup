@@ -41,7 +41,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>mkdir ~/build-$BUILD_NUMBER
-git ls-remote ssh://git@github.com/robcook124/Job_Backups.git</command>
+git ls-remote ssh://git@github.com/robcook124/Job_Backup.git</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
